@@ -1,0 +1,65 @@
+## *
+.*
+
+
+## Git
+# Files
+!.gitattributes
+!.gitignore
+
+
+## Java
+# Files
+*.class
+*.ear
+*.jar
+*.war
+
+
+## Jetbrains
+# Directories
+out/
+
+# Files
+*.iml
+*.ipr
+*.iws
+
+
+## Linux
+# Files
+*~
+
+
+## Mac OS
+# Directories
+# Files
+
+
+## Maven
+# Directories
+target/
+
+# Files
+dependency-reduced-pom.xml
+pom.xml.*
+release.properties
+
+
+## Windows
+# Directories
+$RECYCLE_BIN/
+
+# Files
+*.cab
+*.lnk
+*.msi
+*.msm
+*.msp
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+
+
+# Built using https://github.com/github/gitignore
+# Last updated 2014-10-31 01:55 GMT
