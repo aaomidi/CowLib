@@ -1,0 +1,17 @@
+name: 'CowLib-Lilypad'
+main: 'net.cowcraft.cowlib.spigot.CowLibLilypad'
+version: '${project.version}'
+
+description: '${project.description}'
+website: '${project.url}'
+
+author: 'CowCraft'
+authors:
+- 'Yeti'
+
+depend:
+- 'Lilypad-Connect'
+
+commands: {}
+
+permissions: {}

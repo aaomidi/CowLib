@@ -16,6 +16,8 @@
         <module>Spigot</module>
         <module>Common</module>
         <module>Lilypad</module>
+        <module>Spigot-Bootstrap</module>
+        <module>Lilypad-Bootstrap</module>
     </modules>
 
     <properties>

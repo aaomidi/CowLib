@@ -1,0 +1,14 @@
+name: 'CowLib-Spigot'
+main: 'net.cowcraft.cowlib.spigot.CowLibSpigot'
+version: '${project.version}'
+
+description: '${project.description}'
+website: '${project.url}'
+
+author: 'CowCraft'
+authors:
+- 'Yeti'
+
+commands: {}
+
+permissions: {}
