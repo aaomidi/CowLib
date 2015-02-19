@@ -13,10 +13,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>Spigot</module>
         <module>Common</module>
-        <module>Lilypad</module>
+        <module>Spigot</module>
         <module>Spigot-Bootstrap</module>
+        <module>Lilypad</module>
         <module>Lilypad-Bootstrap</module>
     </modules>
 
@@ -24,6 +24,15 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <internal.jdkVersion>1.8</internal.jdkVersion>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.14.8</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 
     <build>
         <finalName>${project.name}</finalName>
